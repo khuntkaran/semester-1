@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> student form</title>
+    <link rel="icon" type="jpeg" href="13.jpg">
+    <style type="text/css">
+        body {
+            background-color: rgba(40, 21, 73, 0.1);
+            background-image: url(4k.jpg);
+            background-size: 100%;
+        }
+
+        caption {
+            font-size: 50px;
+            color: rgb(172, 44, 177);
+        }
+
+        td {
+            color: rgb(9, 255, 0);
+        }
+
+        #kp {
+            color: rgb(60, 26, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <form align="center">
+        <table align="center">
+            <caption>student form</caption>
+            <tr>
+                <label>
+                    <td>Full Name</td>
+                    <td>=</td>
+                    <td><input type="text" placeholder="Name" required></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>Email</td>
+                    <td>=</td>
+                    <td><input type="email" placeholder="Email" required></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>Qualification</td>
+                    <td>=</td>
+                    <td><input type="text" placeholder="Qualification"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>Mobile No.</td>
+                    <td>=</td>
+                    <td><input type="text" placeholder="Mobile No"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>Address</td>
+                    <td>=</td>
+                    <td><textarea cols="21" rows="5" placeholder="Address"></textarea></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                 <td>Nationality</td>
+                 <td>=</td>
+                 <td>
+                    <label>
+                        <select>
+                            <option>indian</option>
+                            <option>Afghan</option>
+                            <option>Danish</option>
+                            <option>chinese</option>
+                            <option>French</option>
+                            <option>Greek</option>
+                            <option>Iraqi</option>
+                            <option>Italian</option>
+                            <option>Mexican</option>
+                            <option>pakistani</option>
+                        </select>
+                    </label>
+                 </td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>DOB</td>
+                    <td>=</td>
+                    <td><input type="date"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>Gender</td>
+                    <td>=</td>
+                    <td id="kp"><label><input type="radio" name="gender">Male</label>
+                        <label><input type="radio" name="gender">Female</label>
+                        <label><input type="radio" name="gender">Other</label>
+                    </td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>10th passing year</td>
+                    <td>=</td>
+                    <td><input type="ywar" placeholder="10th passing year" required pattern="[0-9]{4}"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>12th passing year</td>
+                    <td>=</td>
+                    <td><input type="ywar" placeholder="12th passing year" required pattern="[0-9]{4}"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                    <td>image</td>
+                    <td>=</td>
+                    <td style="color: blue;"><input type="file"></td>
+                </label>
+            </tr>
+            <tr>
+                <label>
+                 <td colspan="3" align="right">
+                    <label><input type="reset"></label>
+                    <label><input type="submit"></label>
+                 </td>
+                </label>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
