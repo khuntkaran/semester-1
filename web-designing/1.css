@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+}
+.header{
+	 background: salmon; 
+    height: 10vh;
+    /*padding: 20px;*/
+    font-size: 25px;
+    margin: 0px;
+}
+.main{
+	  
+    height: 80vh;
+    padding: 20px;
+    font-size: 25px;
+    margin: -20px;
+}
+.footer{
+	 background: lawngreen; 
+    height: 5vh;
+    /*padding: 20px;*/
+    font-size: 5px;
+    margin: 0px;
+}
+.sidebar{
+	background: lightgrey;
+	float: left;
+	width: 15%;
+	height: 80vh;
+}
+.sidebar2{
+	background: lightgrey;
+	float: right;
+	width: 15%;
+	height: 80vh;
+}
+.content{
+	background: aqua;
+	float: left;
+	width: 70%;
+	height: 80vh;
+}
