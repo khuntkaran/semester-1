@@ -1,14 +1,17 @@
+body{
+    margin: 0px;
+}
 .header{
-    /* background: salmon; */
+    background: salmon;
     height: 10vh;
     padding: 20px;
 }
 .main{
-    /* background: skyblue; */
+    background: skyblue;
     height: 80vh;
 }
 .footer{
-    /* background: tan; */
+    background: tan;
     height: 10vh;
 }
 .logo{
@@ -27,9 +30,9 @@
     word-spacing: 15px;
 }
 .sidebar{
-    /* background: rgb(11, 214, 99); */
+    background: rgb(11, 214, 99);
     width: 25%;
-    /* height: 80vh; */
+    height: 80vh;
     float: left;
 }
 .heding{
@@ -37,15 +40,15 @@
     font-size: 50px;
 }
 .object{
-    height: 50px;
+    height: 40px;
 	border: 5px solid black;
 	width: 80%;
     margin: 10px  10%;
 }
 .content{
-    /* background: yellowgreen; */
+    background: yellowgreen;
     width: 75%;
-    /* height: 80vh; */
+    height: 80vh;
     float: left;
 }  
 .content2{
@@ -63,7 +66,7 @@
     margin: 17px  1%;
 }
 .studentPlaced{
-    border: 2px solid rgb(255, 208, 0);
+    border: 2px solid rgb(0, 204, 255);
     width: 30%;
     height: 70px;
     float: left;
