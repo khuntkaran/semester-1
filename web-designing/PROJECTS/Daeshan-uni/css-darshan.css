@@ -3,31 +3,34 @@ body{
 }
 .header{
     background: salmon;
-    height: 10vh;
-    padding: 20px;
-}
-.main{
-    background: skyblue;
-    height: 80vh;
-}
-.footer{
-    background: tan;
-    height: 10vh;
+    padding: 2px ;
+   position: fixed;
+    width: 100%;
 }
 .logo{
     float: left;
+    margin: 1px 3px;
+    box-sizing: border-box;
 }
-.menubar{
+.menubar a{
     float: right;
-    color: white;
-    background: black;
-    word-spacing: 12px;
+    color: rgb(238, 179, 17);
+    text-decoration: none;
+    padding: 2px 5px;
+    margin: 0px 10px;
+    background-color: seagreen;
+    border-radius: 8px;
+    
 }
-.menubar2{
+.menubar2 a{
     float: right;
     background: white;
     color: black;
     word-spacing: 15px;
+    border-radius: 8px;
+    padding: 2px 5px;
+    margin: 0px 15px;
+    
 }
 .sidebar{
     background: rgb(11, 214, 99);
@@ -38,41 +41,83 @@ body{
 .heding{
     text-align: center;
     font-size: 50px;
+    text-transform: uppercase;
 }
 .object{
     height: 40px;
 	border: 5px solid black;
-	width: 80%;
-    margin: 10px  10%;
+	width: 70%;
+    margin: 10px  auto;
+    font-size: 25PX;
+    text-align: center;
+    border-radius: 8px;
 }
 .content{
-    background: yellowgreen;
+    background: rgb(120, 141, 78);
     width: 75%;
-    height: 80vh;
+    height: auto;
     float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }  
 .content2{
-    height: 200px;
+    background-color: rgb(247, 200, 139);
+    
+	border: 5px solid black;
+	width: 80%;
+    height: auto;
+    margin: 10px  10%;
+   padding: 10px;
+   float: left;
+   border-radius: 18px;
+}
+.content3{
+    height: auto;
+    background-color: rgb(100, 151, 148);
 	border: 5px solid black;
 	width: 80%;
     margin: 10px  10%;
-   
+   padding: 10px;
+   border-radius: 18px;
+   float: left;
 }
 .box{
     border: 2px solid blue;
     width: 30%;
-    height: 150px ;
+    height: auto ;
     float: left;
     margin: 17px  1%;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 .studentPlaced{
-    border: 2px solid rgb(0, 204, 255);
+    border: 2px solid rgb(188, 22, 221);
     width: 30%;
-    height: 70px;
+    height: auto;
     float: left;
     margin: 11px 1%;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 20px;
 }
 .nav{
     text-align:  center;
-    font-size: 20px;
+    font-size: 50px;
+}
+.footer{
+    background: tan;
 }
