@@ -4,8 +4,10 @@ body{
 .header{
     background: salmon;
     padding: 2px ;
-   position: fixed;
+    position: fixed;
     width: 100%;
+    float: left;
+     
 }
 .logo{
     float: left;
@@ -31,6 +33,9 @@ body{
     padding: 2px 5px;
     margin: 0px 15px;
     
+}
+.main{
+    float: left;
 }
 .sidebar{
     background: rgb(11, 214, 99);
