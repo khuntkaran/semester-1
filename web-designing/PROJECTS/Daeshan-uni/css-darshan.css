@@ -4,24 +4,27 @@ body{
 .header{
     background: salmon;
     padding: 2px ;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
+    height: auto;
+    clear: both;
     float: left;
-     
 }
 .logo{
     float: left;
     margin: 1px 3px;
     box-sizing: border-box;
+   
 }
 .menubar a{
     float: right;
     color: rgb(238, 179, 17);
     text-decoration: none;
     padding: 2px 5px;
-    margin: 0px 10px;
+    margin: 5px 10px;
     background-color: seagreen;
     border-radius: 8px;
+    
     
 }
 .menubar2 a{
@@ -31,17 +34,20 @@ body{
     word-spacing: 15px;
     border-radius: 8px;
     padding: 2px 5px;
-    margin: 0px 15px;
+    margin: 5px 15px;
     
 }
 .main{
     float: left;
+    clear: both;
 }
 .sidebar{
     background: rgb(11, 214, 99);
     width: 25%;
-    height: 80vh;
+    height: auto;
     float: left;
+    clear: both;
+    box-sizing: border-box;
 }
 .heding{
     text-align: center;
@@ -125,4 +131,8 @@ h2{
 }
 .footer{
     background: tan;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
