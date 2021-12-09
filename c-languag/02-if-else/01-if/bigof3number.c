@@ -15,11 +15,11 @@ void main ()
     printf("c number is \n");
 	scanf("%d",&c);
 	
-	if(a>b && a>c)
+    if(a>b && a>c)
     {
 		printf("%d a number is big\n",a);
 	}
-	if (b>c && b>a)
+    if (b>c && b>a)
     {
         printf("%d b number is big\n",b); 
     }
