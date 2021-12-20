@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-	int x,j=0,p,t,k;
+	int x,j=0,p;
 
 	printf("enter x = ");
 	scanf("%d",&x);
@@ -9,13 +9,9 @@ void main()
 	while(x>0)
 	{  
 		p=x%10;
-		t=p*10;
-		j=j+t;
+		j=(j*10)+p;
 		x=x/10;
-		if(x<10){
-			j=j+x;
-			break;
-		}	
+		
 
 	}
    printf("r-no = %d",j);

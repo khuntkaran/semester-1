@@ -11,6 +11,7 @@ void main()
 		if (x%i==0)
 		{
 			k=k+1;
+			break;
 		}
 		i++;
 	}
