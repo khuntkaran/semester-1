@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
 body{
     margin: 0px;
 }
@@ -5,7 +9,7 @@ body{
     background: salmon;
     padding: 2px ;
     /* position: fixed; */
-    width: 100%;
+    width: 100vw;
     height: auto;
     clear: both;
     float: left;
@@ -31,7 +35,7 @@ body{
     float: right;
     background: white;
     color: black;
-    word-spacing: 15px;
+    word-spacing: 3vh;
     border-radius: 8px;
     padding: 2px 5px;
     margin: 5px 15px;
@@ -40,10 +44,12 @@ body{
 .main{
     float: left;
     clear: both;
+    box-sizing: border-box;
+    display: flex;
 }
 .sidebar{
     background: rgb(11, 214, 99);
-    width: 25%;
+    width: 25vw;
     height: auto;
     float: left;
     clear: both;
@@ -51,25 +57,26 @@ body{
 }
 .heding{
     text-align: center;
-    font-size: 50px;
+    font-size: 8vh;
     text-transform: uppercase;
 }
 .object{
-    height: 40px;
+    height: auto;
 	border: 5px solid black;
 	width: 70%;
     margin: 10px  auto;
-    font-size: 25PX;
+    font-size: 5vh;
     text-align: center;
     border-radius: 8px;
 }
 .content{
     background: rgb(120, 141, 78);
-    width: 75%;
+    width: 75vw;
     height: auto;
     float: left;
     padding: 10px;
     box-sizing: border-box;
+    display: inline;
 }  
 .content2{
     background-color: rgb(247, 200, 139);
@@ -118,21 +125,39 @@ img{
 }
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 7vh;
     
 }
 h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 4vh;
 }
 .nav{
     text-align:  center;
-    font-size: 50px;
+    font-size: 10vh;
 }
 .footer{
     background: tan;
+    width: 100vw;
 }
 a{
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width :1172px) {
+
+    h1{
+        font-size: 5vh;
+    }
+    h2{
+        font-size: 2vh;
+    }
+    
+}
+@media screen and (max-width :877px) {
+
+    h1{
+        font-size: 3vh;
+    }
+    
 }
