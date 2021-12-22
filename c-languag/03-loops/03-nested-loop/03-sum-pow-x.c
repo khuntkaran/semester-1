@@ -2,7 +2,7 @@
 #include<math.h>
 void  main()
 {
-	float i, n ,sum=0.0,k=1.0,x=1.0;
+	float i, n ,sum=0.0,k,x;
 	int j;
 	printf("enter your velue\n");
 	scanf("%f",&n);
@@ -16,15 +16,8 @@ void  main()
 			k=k*j;
 		}
 
-		if (j%2==0)
-		{
 			sum=sum+(pow(x,i)/k);
-			printf("%f\n",sum);
-		}
-		else{
-			sum=sum-(pow(x,i)/k);
-			printf("%f\n",sum);
-		}
+		
 		
 	}
 	printf("sum = %f",1+sum);
