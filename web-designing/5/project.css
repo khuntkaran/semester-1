@@ -1,0 +1,47 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	width: 100%;
+	height: auto;
+	background-image: url("./images/header-bg.jpg");
+	float: left;
+}
+.h1
+{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.h2
+{
+	background: white;
+	float:right;
+	width: 50%;
+	padding: 2px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.h21,.h31
+{
+	display: inline;
+	margin-right: 30px;
+}
+.h3
+{
+	
+	float:right;
+	width: 50%;
+	padding: 2px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	color: white;
+	
+}
+.h311
+{
+	color: black;
+}
