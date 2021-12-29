@@ -31,6 +31,25 @@ void main()
 			scanf("%d",&array2[i][j]);
 		}
 	}
+	
+	for ( i = 0; i < x; i++)
+	{
+		for (j = 0; j < l; j++)
+		{
+			printf("%d ",array[i][j]);
+			
+		}
+		printf("\n");
+	}
+	for ( i = 0; i < l; i++)
+	{
+		for (j = 0; j < y; j++)
+		{
+			printf("%d ",array2[i][j]);
+			
+		}
+		printf("\n");
+	}
 
 	for (i = 0; i < x; i++)
 	{
