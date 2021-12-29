@@ -31,7 +31,27 @@ void main()
 			scanf("%d",&array2[i][j]);
 		}
 	}
-
+	printf("matrix 1 is\n");
+	for ( i = 0; i < x; i++)
+	{
+		for (j = 0; j < l; j++)
+		{
+			printf("%d ",array[i][j]);
+			
+		}
+		printf("\n");
+	}
+	printf("matrix 2 is\n");
+	for ( i = 0; i < l; i++)
+	{
+		for (j = 0; j < y; j++)
+		{
+			printf("%d ",array2[i][j]);
+			
+		}
+		printf("\n");
+	}
+	printf("multiplication of matrix 1 and matrix 2\n");
 	for (i = 0; i < x; i++)
 	{
 		for (j = 0; j < y; j++)
