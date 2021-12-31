@@ -98,6 +98,11 @@ a
 	border:rgb(255, 24, 0);
 	border-radius: 30px;
 }
+.m13:hover, .bu2:hover, .m2-33:hover, .m6-33:hover, .m3-314:hover
+{
+	background-color: black;
+	transform: scale(1.1);
+}
 .tb1
 {
 	margin-top: 30px;
