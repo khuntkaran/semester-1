@@ -15,12 +15,16 @@ void main()
 }
 int factorial(int a)
 {
-    int i,s;
-
-    for(i=1,s=1;i<=a;i++)
-	{
-		s=s*i;
-	}
+	int s=1;
+      if(a==1)
+      {
+      	s=s* 1;
+      }
+      else
+      {
+      	s=a*factorial(a-1);
+      }
+    
 
     return s;
 }
