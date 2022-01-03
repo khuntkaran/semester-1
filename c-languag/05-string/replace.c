@@ -2,20 +2,17 @@
 #include<string.h>
 void main()
 {
-    int a,b,i;
+    int a;
     char name[10];
 
     printf("enter your name = ");
     gets(name);
-    b = strlen(name);
+   
    
     printf("wich number of replace character = ");
     scanf("%d",&a);
     printf("what is new character = ");
-    scanf("%s", &name[a-1]);
+    scanf("%s",&name[a-1]);
     
-   for(i=0;i<b;i++)
-    {
-       printf("%c",name[i]);   
-    }
+    printf("name is %s",name); 
 }
