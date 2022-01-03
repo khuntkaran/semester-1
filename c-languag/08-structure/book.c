@@ -6,7 +6,7 @@ struct book
 	char name[50];
 	char pablication[50];
 	int price;
-}b1,b2,b3;
+}b1;
 void main()
 {
 

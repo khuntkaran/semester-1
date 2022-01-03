@@ -14,7 +14,7 @@ int binary(int a)
 {
     int i,j,k,l;
 
-    for (i=1,k=0,l=0;i<=a;l++)
+    for (i,k=0,l=0;i<=a;l++)
     {
       k=k+pow(2,l);
         i=k;
