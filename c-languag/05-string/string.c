@@ -13,6 +13,7 @@ void str();
 void rev();
 void lwr();
 void upr();
+void rchr();
 
 void main()
 {
@@ -28,7 +29,7 @@ void main()
     rev();
     lwr();
     upr();
-    
+    rchr();
 }
 void len()
 {   
@@ -101,4 +102,12 @@ void upr()
     strcpy(upr,str1);
 
     printf("str-1 all character in upper case = %s\n",strupr(upr));
+}
+void rchr()
+{   
+    char rchr[55],*r;
+    strcpy(rchr,str1);
+
+    r = strrchr (rchr,'a');
+    printf ("Character last-a is found at position  %d\n",r-rchr+1);
 }
