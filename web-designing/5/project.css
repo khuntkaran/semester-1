@@ -172,6 +172,10 @@ hr{
 {
 	margin: 1px 180px;
 }
+.m3-31 img:hover,.m5-31 img:hover,.m7-3 img:hover
+{
+	transform: scale(1.05);
+}
 .m3-312
 {
 	font-size: 30px ;
