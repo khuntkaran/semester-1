@@ -12,10 +12,11 @@ void main()
 
     for (i = 0; i < 10; i++)
     {
+        fflush(stdin);
         printf("enter student %d name  = ", i + 1);
-        scanf("%s",student[i].name);
+        gets(student[i].name);
         printf("enter student %d branch  = ", i + 1);
-        scanf("%s",student[i].barnch);
+        gets(student[i].barnch);
         printf("enter student %d totel marks = ", i + 1);
         scanf("%d", &student[i].marcks);
     }

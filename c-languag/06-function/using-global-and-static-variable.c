@@ -1,23 +1,21 @@
 #include <stdio.h>
 int sum();
-int x = 5; //global variable
+int x; //global variable
 void main()
 {
     int p; //local variable
 
-    printf("without chang global variable velue in function\n x = %d\n", x);
+    p = sum();
+    x = x + 1;
+    printf("first time call function sum\n static variable value = %d\n global variable velue = %d\n", p, x);
 
     p = sum();
     x = x + 1;
-    printf("first time call function sum\n static variable value = %d\n global variable velue = %d\n", p,x);
+    printf("second time call function sum\n static variable value = %d\n global variable velue = %d\n", p, x);
 
     p = sum();
-     x = x + 1;
-    printf("second time call function sum\n static variable value = %d\n global variable velue = %d\n", p,x);
-
-    p = sum();
-     x = x + 1;
-    printf("third time call function sum\n static variable value = %d\n global variable velue = %d", p,x);
+    x = x + 1;
+    printf("third time call function sum\n static variable value = %d\n global variable velue = %d", p, x);
 }
 int sum()
 {

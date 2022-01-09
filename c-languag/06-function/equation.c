@@ -5,7 +5,8 @@ void  main()
 {
 	float n,x,y;
 	
-	printf("enter your velue\n");
+	printf("equation = x - (x)^3/3! + (x)^5/5! - (x)^7/7! + (x)^n/n!\n");
+	printf("enter step to define\n");
 	scanf("%f",&y);
 	printf("enter your x\n");
 	scanf("%f",&x);
@@ -30,12 +31,10 @@ float equation(int a,int b)
 		{
 			sum=sum+(pow(b,i)/k);
 			p--;
-			printf("sumo = %f\n",sum);
 		}
 		else{
 			sum=sum-(pow(b,i)/k);
 			p++;
-			printf("sumo = %f\n",sum);
 		}
 		
 	}

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 struct book
 {
@@ -6,26 +6,36 @@ struct book
 	char name[50];
 	char pablication[50];
 	int price;
-}b1;
+};
 void main()
 {
+	int n, i;
 
-	printf("enter book titel = ");
-	scanf("%s",b1.titel);
+	printf("you want how many book data store = ");
+	scanf("%d", &n);
+	struct book b[n];
 
-	printf("enter book author name = ");
-	scanf("%s",b1.name);
+	for (i = 0; i < n; i++)
+	{
+		fflush(stdin);
+		printf("enter %d book titel = ",i+1);
+		gets(b[i].titel);
 
-	printf("enter book pablication name = ");
-	scanf("%s",b1.pablication);
+		printf("enter %d book author name = ",i+1);
+		gets(b[i].name);
 
-	printf("enter book price = ");
-	scanf("%d",&b1.price);
+		printf("enter %d book pablication name = ",i+1);
+		gets(b[i].pablication);
 
-    printf("book name is = %s\n",b1.titel);
-    printf("book author name is = %s\n",b1.name);
-    printf("book pablication name is = %s\n",b1.pablication);
-    printf("book price is = %d\n",b1.price);
+		printf("enter %d book price = ",i+1);
+		scanf("%d", &b[i].price);
+	}
 
-
+	for (i = 0; i < n; i++)
+	{
+		printf("%d book name is = %s\n",i+1, b[i].titel);
+		printf("%d book author name is = %s\n", i+1,b[i].name);
+		printf("%d book pablication name is = %s\n",i+1, b[i].pablication);
+		printf("%d book price is = %d\n", i+1,b[i].price);
+	}
 }

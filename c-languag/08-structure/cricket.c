@@ -12,10 +12,11 @@ void main()
 
     for (i = 0; i < 50; i++)
     {
+        fflush(stdin);
         printf("enter player %d name  = ", i + 1);
-        scanf("%s",player[i].name);
+        gets(player[i].name);
         printf("enter player %d team-name  = ", i + 1);
-        scanf("%s",player[i].t_name);
+        gets(player[i].t_name);
         printf("enter player %d batting average = ", i + 1);
         scanf("%f", &player[i].avg);
     }
