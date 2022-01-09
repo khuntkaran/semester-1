@@ -2,10 +2,9 @@
 void main()
 {
     int a=15;
-    int *pa=&a;
+    int *pa;
 
-    
-
+    pa=&a;
     printf("address = %u",pa );
     printf("value = %d",*pa);
 }

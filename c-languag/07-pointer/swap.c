@@ -1,13 +1,15 @@
 #include<stdio.h>
 void main()
 {
-    int a=15,b=10,c=a;
-    int *pa=&a,*pb=&b,*pc=&c;
-    
-    a=*pb;
-    b=*pc;
-    
+    int a=15,b=10;
+    int *pa,*pb,*pc;
 
-    
-    printf("a = %d,b = %d",a,b);
+    pa=&a;
+    pb=&b;
+    printf("before swaping a = %d,b = %d\n",*pa,*pb);
+
+    pc=pa;
+    pa=pb;
+    pb=pc;
+    printf("after swaping a = %d,b = %d",*pa,*pb);
 }

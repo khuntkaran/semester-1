@@ -9,6 +9,6 @@ void main()
 	gets(name);
 	for(i=0;name[i]!='\0';i++)
 	{
-		printf("velue = %c,address = %u\n",*(n+i),(n+i));
+		printf("velue = %c\n",*(n+i));
 	}
 }
