@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+}
+
+.main{
+	  
+    height: 80vh;
+    padding: 20px;
+    font-size: 25px;
+    margin: -20px;
+}
+.content{
+	background: aqua;
+	float: left;
+	width: 80%;
+	height: 60vh;
+}
+.sidebar{
+	background: rgb(117, 92, 92);
+	float: right;
+	width: 20%;
+	height: 80vh;
+}
+.sidebar2{
+	background: rgb(177, 145, 57);
+	float: left;
+	width: 80%;
+	height: 20vh;
+}
+
+.footer{
+	background: lawngreen; 
+   height: 5vh;
+   /*padding: 20px;*/
+   font-size: 5px;
+   margin: 0px;
+}
+.header{
+	background: salmon; 
+   height: 10vh;
+   padding: 8px;
+   font-size: 35px;
+   margin: 0px;
+   text-transform: capitalize;
+   font-weight: 900;
+}
+.note1{
+	background: rgb(177, 145, 57);
+	text-transform: capitalize;
+
+
+}
+.note2{
+	
+	text-transform: capitalize;
+
+
+}
+.navigation-hear{
+	text-align: center;
+	padding: 12px;
+	font-weight: 600;
+	font-size: 20px;
+}
+.mp{
+	margin:  15px 2px 15px 8px;
+	padding: 0px;
+}
+.explain{
+	text-transform: capitalize;
+	font-size: 15px;
+	
+}
+.c1{
+	text-transform: capitalize;
+	font-weight: 900;
+	margin:  1px 2px 15px 18px;
+}
+.c2{
+	margin:  1px 2px 15px 18px;
+}
+.m{
+	margin:  25px 1px ;
+}
+.hi{
+	font-size: 25px;
+	text-transform: capitalize;
+	padding: 1px 15px;
+}
+

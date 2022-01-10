@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+.header{
+    background: salmon;
+    padding: 2px ;
+    /* position: fixed; */
+    width: 100vw;
+    height: auto;
+    clear: both;
+    float: left;
+}
+.logo{
+    float: left;
+    margin: 1px 3px;
+    box-sizing: border-box;
+   
+}
+.menubar a{
+    float: right;
+    color: rgb(238, 179, 17);
+    text-decoration: none;
+    padding: 2px 5px;
+    margin: 5px 10px;
+    background-color: seagreen;
+    border-radius: 8px;
+    
+    
+}
+.menubar2 a{
+    float: right;
+    background: white;
+    color: black;
+    word-spacing: 3vh;
+    border-radius: 8px;
+    padding: 2px 5px;
+    margin: 5px 15px;
+    
+}
+.main{
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+    display: flex;
+}
+.sidebar{
+    background: rgb(11, 214, 99);
+    width: 25vw;
+    height: auto;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+}
+.heding{
+    text-align: center;
+    font-size: 8vh;
+    text-transform: uppercase;
+}
+.object{
+    height: auto;
+	border: 5px solid black;
+	width: 70%;
+    margin: 10px  auto;
+    font-size: 5vh;
+    text-align: center;
+    border-radius: 8px;
+}
+.content{
+    background: rgb(120, 141, 78);
+    width: 75vw;
+    height: auto;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline;
+}  
+.content2{
+    background-color: rgb(247, 200, 139);
+    
+	border: 5px solid black;
+	width: 80%;
+    height: auto;
+    margin: 10px  10%;
+   padding: 10px;
+   float: left;
+   border-radius: 18px;
+}
+.content3{
+    height: auto;
+    background-color: rgb(100, 151, 148);
+	border: 5px solid black;
+	width: 80%;
+    margin: 10px  10%;
+   padding: 10px;
+   border-radius: 18px;
+   float: left;
+}
+.box{
+    border: 2px solid blue;
+    width: 30%;
+    height: auto ;
+    float: left;
+    margin: 17px  1%;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.studentPlaced{
+    border: 2px solid rgb(188, 22, 221);
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 11px 1%;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 7vh;
+    
+}
+h2{
+    text-align: center;
+    font-size: 4vh;
+}
+.nav{
+    text-align:  center;
+    font-size: 10vh;
+}
+.footer{
+    background: tan;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width :1172px) {
+
+    h1{
+        font-size: 5vh;
+    }
+    h2{
+        font-size: 2vh;
+    }
+    
+}
+@media screen and (max-width :877px) {
+
+    h1{
+        font-size: 3vh;
+    }
+    
+}

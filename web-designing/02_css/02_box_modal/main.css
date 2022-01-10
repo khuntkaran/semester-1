@@ -1,0 +1,25 @@
+a{
+    color: rgb(151, 25, 140);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+}
+body{
+    background:rgba(25, 105, 151, 0.575);
+   
+}
+caption{
+    font-size: 40px;
+    color: rgba(93, 24, 172, 0.63);
+    font-weight: 600;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+button{    
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    background-color: black;
+   
+}
+
