@@ -15,7 +15,7 @@ void main()
                 p=p+j;
         }
 		
-		if(x<10){
+		if(x<10 && k>10){
 			p=p+x;
 			break;
 		}

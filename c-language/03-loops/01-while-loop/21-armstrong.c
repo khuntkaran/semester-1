@@ -30,6 +30,8 @@ void main()
 	 printf("number is not armstrong");
 	}
 
+
+//153 is armstrong
 	
 
 }

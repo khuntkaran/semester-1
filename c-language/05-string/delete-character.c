@@ -8,7 +8,7 @@ void main()
     printf("enter your name = ");
     gets(name);
     b = strlen(name);
-    printf("wich number of replace character = ");
+    printf("wich number of delete character = ");
     scanf("%d",&a);
    
     name[a-1]=0;

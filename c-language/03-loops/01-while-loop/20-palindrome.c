@@ -20,4 +20,7 @@ void main()
     {
         printf("number is not palindrome");
     }
+
+
+    // palindrome value = 1,11,101,151,
 }

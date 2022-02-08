@@ -6,15 +6,15 @@ void main()
 	printf("enter x = ");
 	scanf("%d",&x);
 
-	while(i<=x)
+	while(i<x)
 	{
 		if (x%i==0)
 		{
 			
 		
-			if(i<x){
+			
 				k=k+i;
-			}
+			
 		}
 		i++;
 	}
@@ -25,6 +25,8 @@ void main()
 		printf("number is not perfect");
 	}
 
+
+	//perfect no = 6,28,496
 }
 
    
