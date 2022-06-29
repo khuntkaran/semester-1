@@ -1,0 +1,11 @@
+.fo{
+    background-image: url("./images/contact-bg.png");
+    background-position-x: 100%;
+    padding-top: 130px;
+}
+.hi{
+    color: white;
+}
+.ce{
+    text-align: center;
+}
